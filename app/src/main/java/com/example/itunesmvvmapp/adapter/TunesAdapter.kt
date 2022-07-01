@@ -54,7 +54,7 @@ class TunesViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         trackPrice.text = "£."+currentMusic.trackPrice.toString()
 
         Glide.with(itemView)
-            .load(currentMusic.artworkUrl60)
+            .load(currentMusic.artworkUrl60 )
             .centerCrop()
             .into(artworkUrl)
     }

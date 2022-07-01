@@ -5,7 +5,6 @@ import android.os.Bundle
 import com.example.itunesmvvmapp.adapter.FragmentsAdapter
 import com.example.itunesmvvmapp.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
-import dagger.hilt.EntryPoint
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
